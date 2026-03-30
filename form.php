@@ -88,57 +88,57 @@ button:hover {
 
 <body>
 
-<div class="container">
-<h2>Форма регистрации</h2>
+  <div class="container">
+  <h2>Форма регистрации</h2>
 
-<form action="index.php" method="POST">
+  <form action="index.php" method="POST">
 
-<label>ФИО:</label>
-<input type="text" name="name" required>
+    <label>ФИО:</label>
+    <input type="text" name="name" required>
 
-<label>Телефон:</label>
-<input type="tel" name="phone" required>
+    <label>Телефон:</label>
+    <input type="tel" name="phone" required>
 
-<label>Email:</label>
-<input type="email" name="email" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
 
-<label>Дата рождения:</label>
-<input type="date" name="birthdate" required>
+    <label>Дата рождения:</label>
+    <input type="date" name="birthdate" required>
 
-<label>Пол:</label>
-<div class="radio-group">
-  <label><input type="radio" name="gender" value="male"> Муж</label>
-  <label><input type="radio" name="gender" value="female"> Жен</label>
-</div>
+    <label>Пол:</label>
+    <div class="radio-group">
+      <label><input type="radio" name="gender" value="male"> Муж</label>
+      <label><input type="radio" name="gender" value="female"> Жен</label>
+    </div>
 
-<label>Любимый язык программирования:</label>
-<select name="languages[]" multiple>
-  <option value="1">Pascal</option>
-  <option value="2">C</option>
-  <option value="3">C++</option>
-  <option value="4">JavaScript</option>
-  <option value="5">PHP</option>
-  <option value="6">Python</option>
-  <option value="7">Java</option>
-  <option value="8">Haskel</option>
-  <option value="9">Clojure</option>
-  <option value="10">Prolog</option>
-  <option value="11">Scala</option>
-  <option value="12">Go</option>
-</select>
+    <label>Любимый язык программирования:</label>
+    <select name="languages[]" multiple>
+      <option value="1">Pascal</option>
+      <option value="2">C</option>
+      <option value="3">C++</option>
+      <option value="4">JavaScript</option>
+      <option value="5">PHP</option>
+      <option value="6">Python</option>
+      <option value="7">Java</option>
+      <option value="8">Haskel</option>
+      <option value="9">Clojure</option>
+      <option value="10">Prolog</option>
+      <option value="11">Scala</option>
+      <option value="12">Go</option>
+    </select>
 
-<label>Биография:</label>
-<textarea name="bio" rows="4"></textarea>
+    <label>Биография:</label>
+    <textarea name="bio" rows="4"></textarea>
 
-<div class="checkbox-group">
-  <label>
-    <input type="checkbox" name="contract"> С контрактом ознакомлен
-  </label>
-</div>
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" name="contract"> С контрактом ознакомлен
+      </label>
+    </div>
 
-<button type="submit">Сохранить</button>
+    <button type="submit">Сохранить</button>
 
-</form>
+  </form>
 </div>
 
 </body>
